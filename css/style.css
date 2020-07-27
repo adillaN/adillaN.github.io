@@ -272,13 +272,13 @@ body {
     clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 0% 100%);
     -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 0% 100%); }
     .card__picture--1 {
-      background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../img/nat-5.jpg);
+      background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../img/urw.png);
       height: 23rem; }
     .card__picture--2 {
-      background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url(../img/nat-6.jpg);
+      background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url(../img/paypo.jpeg);
       height: 23rem; }
     .card__picture--3 {
-      background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../img/nat-7.jpg);
+      background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../img/tyc.jpeg);
       height: 23rem; }
   .card__heading {
     font-size: 2.8rem;
@@ -295,11 +295,11 @@ body {
     box-decoration-break: clone;
     -webkit-box-decoration-break: clone; }
     .card__heading-span--1 {
-      background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.7), rgba(255, 119, 48, 0.7)); }
+      background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.7), rgba(255, 119, 48, 0.9)); }
     .card__heading-span--2 {
-      background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.7), rgba(40, 180, 133, 0.7)); }
+      background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.7), rgba(40, 180, 133, 0.9)); }
     .card__heading-span--3 {
-      background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.7), rgba(86, 67, 250, 0.7)); }
+      background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.7), rgba(86, 67, 250, 0.9)); }
   .card__details {
     padding: 1.5rem; }
     .card__details ul {
@@ -926,7 +926,7 @@ body {
   top: 0; }
 
 .section-about {
-  background-color: #f3f1f1;
+  background-color: rgba(255, 255, 255, 0.9);
   padding: 25rem 0;
   margin-top: -20vh; }
   @media only screen and (max-width: 56.25em) {
@@ -936,7 +936,7 @@ body {
 .section-features {
   padding: 20rem 0;
   margin-top: -10rem;
-  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/nat-4.jpg);
+  background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.8), rgba(40, 180, 133, 0.9)), url(../img/bg1.jpg);
   background-size: cover;
   transform: skewY(-7deg); }
   .section-features > * {
@@ -962,7 +962,7 @@ body {
 
 .section-book {
   padding: 15rem 0;
-  background-image: linear-gradient(to right bottom, #7ed56f, #28b485); }
+  background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)); }
   @media only screen and (max-width: 56.25em) {
     .section-book {
       padding: 10rem 0; } }
